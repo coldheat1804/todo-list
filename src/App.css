@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  /* background-image: linear-gradient(to right, #1f1bf6, #19d7f8); */
+  background-image: linear-gradient(
+      to right,
+      rgba(31, 27, 46, 0.9),
+      rgba(25, 215, 248, 0.9)
+    ),
+    url(./pitchou.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.App {
+  /* height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right, #1f1bf6, #19d7f8);
+  background-position: center;
+  background-size: cover; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 200px;
+}
+h1 {
+  margin: 40px;
+}
